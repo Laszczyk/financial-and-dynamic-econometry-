@@ -4,35 +4,23 @@ This repository contains a collection of laboratory projects, simulations, and a
 
 ## Project Overview
 
-### 1. Financial Data Properties & Normality Testing (`lab1.ipynb`)
-Statistical analysis of financial time series data (Open, High, Low, Close, Volume). The project implements and compares various statistical tests for distribution normality, including Shapiro-Wilk, D'Agostino-Pearson, and Kolmogorov-Smirnov tests.
-
-### 2. MA(1) Model Simulation & Estimation (`lab2.ipynb`, `lab2b.ipynb`)
-Monte Carlo simulation of the Moving Average MA(1) process ($X_t = \theta_0 + \theta_1\varepsilon_{t-1} + \varepsilon_t$). The study focuses on estimating model parameters, analyzing the empirical distribution of these estimators through histograms and boxplots, and testing their asymptotic normality.
-
-### 4. Advanced Volatility Modeling (`lab_4A_grupa_4_NST.ipynb`, `lab_4B_grupa_4_NST.ipynb`)
-Comprehensive volatility forecasting using the ARMA-GARCH framework. 
-* Evaluates various model specifications including standard GARCH, EGARCH, and GJR-GARCH.
-* Compares error distributions (Normal, Student's t, Skewed t).
-* Features a robust rolling-window analysis (100, 200, and 500 observations) to track the best-fitting models (based on AIC) across different years.
-
-### 5. VAR(1) Models & HC Estimators (`lab5_5A.ipynb`, `lab_5B_grupa_4_NST.ipynb`)
-Simulation-based study of Vector Autoregression VAR(1) models evaluating the performance of Heteroskedasticity-Consistent (HC) standard errors. The project analyzes the empirical size and power of Granger causality tests under classical OLS versus various HC estimators.
-
-### 6. European Stock Market Interdependencies: COVID-19 Impact (`Sprawozdanie_6AB...pdf`)
-A comprehensive empirical study analyzing the transmission of shocks across six major European stock exchanges (DAX, AEX, BEL20, OMXS, OMXV, WIG20). 
-* Utilizes Vector Autoregressive (VAR) models and Granger causality tests.
-* Employs Chow tests and Likelihood Ratio (LR) tests to identify and confirm structural breaks and shifts in market dynamics caused by the outbreak of the 2020 pandemic.
+| Project | Description | Preview Links |
+| :--- | :--- | :--- |
+| **1. Financial Data Properties** | Statistical analysis of financial time series data (Open, High, Low, Close, Volume). Implements and compares various statistical tests for distribution normality, including Shapiro-Wilk, D'Agostino-Pearson, and Kolmogorov-Smirnov tests. | [View `lab1.ipynb`]([https://github.com/[YOUR_REPO_LINK]/lab1.ipynb](https://github.com/Laszczyk/financial-and-dynamic-econometry-/blob/main/projket1/Sprawozdanie_1B_grupa_4.pdf)) |
+| **2. MA(1) Model Simulation** | Monte Carlo simulation of the Moving Average MA(1) process ($X_t = \theta_0 + \theta_1\varepsilon_{t-1} + \varepsilon_t$). Focuses on parameter estimation, analyzing empirical distributions via histograms/boxplots, and testing asymptotic normality. | [View `lab2.ipynb`](https://github.com/[YOUR_REPO_LINK]/lab2.ipynb)<br>[View `lab2b.ipynb`](https://github.com/[YOUR_REPO_LINK]/lab2b.ipynb) |
+| **3. Volatility Modeling (GARCH)** | Comprehensive volatility forecasting using the ARMA-GARCH framework.<br>• Evaluates GARCH, EGARCH, and GJR-GARCH specifications.<br>• Compares Normal, Student's t, and Skewed t error distributions.<br>• Features robust rolling-window analysis (100, 200, 500 obs). | [View `lab_4A.ipynb`](https://github.com/[YOUR_REPO_LINK]/lab_4A_grupa_4_NST.ipynb)<br>[View `lab_4B.ipynb`](https://github.com/[YOUR_REPO_LINK]/lab_4B_grupa_4_NST.ipynb) |
+| **4. VAR(1) Models & HC Estimators** | Simulation-based study of Vector Autoregression VAR(1) models evaluating the performance of Heteroskedasticity-Consistent (HC) standard errors. Analyzes the empirical size and power of Granger causality tests under classical OLS vs. HC estimators. | [View `lab5_5A.ipynb`](https://github.com/[YOUR_REPO_LINK]/lab5_5A.ipynb)<br>[View `lab_5B.ipynb`](https://github.com/[YOUR_REPO_LINK]/lab_5B_grupa_4_NST.ipynb) |
+| **5. European Stock Markets (COVID-19)** | Empirical study analyzing shock transmission across six major European stock exchanges (DAX, AEX, BEL20, OMXS, OMXV, WIG20).<br>• Utilizes VAR models and Granger causality tests.<br>• Employs Chow and LR tests to confirm structural breaks caused by the 2020 pandemic. | [View PDF Report](https://github.com/[YOUR_REPO_LINK]/Sprawozdanie_6AB_grupa_4_NST.pdf) |
 
 ---
 
-## Tools & Technologies
+## 🛠 Tools & Technologies
 * **Language:** Python
 * **Libraries:** `pandas`, `numpy`, `statsmodels`, `scipy`, `matplotlib`, `arch`
 * **Formats:** Jupyter Notebook (`.ipynb`), PDF Reports
 * **Key Methodologies:** Time Series Analysis, Monte Carlo Simulations, GARCH Volatility Forecasting, VAR Modeling, Granger Causality, Structural Break Testing.
 
-## Authors
+## 👥 Authors
 * Jakub Laszczyk
 * Małgorzata Leszczyńska
 * Aleksandra Wajda
